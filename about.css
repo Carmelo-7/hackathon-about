@@ -24,7 +24,7 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
     /* font-family: 'SF Pro Display',sans-serif; */
-font-family: Ace,sans-serif;
+     font-family: Ace,sans-serif;
     font-weight: 700;
 }
 
@@ -55,3 +55,10 @@ p{
     padding: 1rem 6rem;
     gap: 1.5rem;
 }
+
+@media screen and (max-width:768px) {
+    .text-hero{
+        padding:1rem 2rem;
+    }
+}
+
